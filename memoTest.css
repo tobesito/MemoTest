@@ -1,1 +1,51 @@
+.visible {
+    opacity: 1.0;
+}
 
+.oculta {
+    opacity: 0.0;
+}
+
+.colorFondo{
+    background-color: rgb(193, 248, 222)
+
+}
+
+.juego {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.tablero {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.carta {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.6);
+    display: flex;
+    margin: 10px;
+    padding: 2px;
+}
+
+.carta img {
+    width: 75%;
+    position: absolute;
+    transition: all;
+}
+
+.contenedor {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+}
