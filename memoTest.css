@@ -1,1 +1,48 @@
+.visible {
+    opacity: 1.0;
+}
+
+.oculta {
+    opacity: 0.0;
+}
+
+.juego {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.tablero {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.contenedor {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.carta {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.6);
+    display: flex;
+    margin: 10px;
+    padding: 2px;
+}
+
+.carta img {
+    width: 75%;
+    position: absolute;
+    /*transition: all;*/
+}
+
 
